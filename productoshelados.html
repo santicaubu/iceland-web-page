@@ -5,70 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon-32x32.png">
-    <script src="https://kit.fontawesome.com/9a9cc78ea2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img//favicon-32x32.png">
     <title>Iceland</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/9a9cc78ea2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <div class="contenedor">
-            <a href="" class="logo">
-                <img src="./img/TITULO.png" alt="titulo iceland" class="">
-            </a>
+    <header class="bg-white">
+        <div class="container d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./img/iceland-logo.png" alt="titulo iceland"
+                            class=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sabores.html">Sabores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cafeteriaPasteleria.html">Cafeteria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sucursales.html">Sucursales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <nav class="navegacion">
-            <ul>
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li><a href="sabores.html">SABORES</a></li>
-                <li><a href="cafeteriaPasteleria.html">CAFETERIA & PASTELERIA</a></li>
-                <li><a href="productoshelados.html">PRODUCTOS HELADOS</a></li>
-                <li><a href="sucursales.html">SUCURSALES</a></li>
-                <li><a href="historia.html">HISTORIA</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <h1>PRODUCTOS</h1>
-        <ul>
-            <h3>TORTAS</h3>
-            <li>Torta Iceland</li>
-            <li>Torta de frutos rojos</li>
-            <li>Torta tiramisu</li>
-            <li>Torta de higos</li>
-        </ul>
-    </main>
-    <hr>
-    <footer>
-        <div class="footer-1">
 
-            <div class="bloque-footer">
-                <figure>
-                    <a href="" class="logo">
-                        <img src="./img/TITULO.png" alt="titulo iceland" class="">
-                    </a>
-                </figure>
-            </div>
-
-            <div class="bloque-footer">
-                <h2>Sobre nosotros</h2>
-                <p>Iceland helados artenasanales</p>
-            </div>
-            <div class="bloque-footer">
-                <h2>Seguinos</h2>
-                <div class="redes-sociales">
-                    <a href="https://www.facebook.com/ICELANDHELADOS" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/icelandhelados/?hl=es" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com/icelandhelados" class="fa fa-twitter"></a>
+    <main class="bg-light">
+        <div class="container d-flex mt-2">
+            <h2>Productos helados</h2>
+        </div>
+        <div class="container mb-2  main-container">
+            <div class="row g-2">
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <h3>Tortas</h3>
+                        <li class="list-group-item">Torta Iceland</li>
+                        <li class="list-group-item">Torta de frutos rojos</li>
+                        <li class="list-group-item">Torta de higos</li>
+                        <li class="list-group-item">Torta Tiramisu</li>
+                        <li class="list-group-item">Dulce Cookies</li>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <h3>Individuales</h3>
+                        <li class="list-group-item">Cubanito relleno de helado</li>
+                        <li class="list-group-item">Franui</li>
+                        <li class="list-group-item">Bombon Suizo</li>
+                        <li class="list-group-item">Postre Iceland</li>
+                        <li class="list-group-item">Palito Crocante</li>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer2">
-            <div class="footer-2">
+
+    </main>
+    <footer class="bg-white">
+        <div class="container footer-container">
+            <div class="d-flex flex-row justify-content-between top-footer-container">
+                <div class="d-flex align-items-center footer-block">
+                    <a href="" class="logo">
+                        <img src="./img/iceland-logo.png" alt="titulo iceland" class="">
+                    </a>
+                </div>
+                <div class="footer-block">
+                    <h2 class="text-center">Sobre nosotros</h2>
+                    <p>Iceland helados artenasanales</p>
+                </div>
+                <div class="footer-block social-network-block">
+                    <h2 class="text-center">Seguinos</h2>
+                    <div class="social-network">
+                        <a href="https://www.facebook.com/ICELANDHELADOS" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/icelandhelados/?hl=es" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/icelandhelados" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center bot-footer-container">
                 <p>Santiago Caubu - Todos los derechos reservados.</p>
             </div>
         </div>

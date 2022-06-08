@@ -1,0 +1,28 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "coderhouse web page",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "test-run",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",     
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santicaubu/iceland-web-page.git"
+  },
+  "keywords": [
+    "coderhouse"
+  ],
+  "author": "santiago caubu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santicaubu/iceland-web-page/issues"
+  },
+  "homepage": "https://github.com/santicaubu/iceland-web-page#readme"
+}

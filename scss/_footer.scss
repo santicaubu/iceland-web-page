@@ -1,0 +1,31 @@
+footer .footer-container {
+    .top-footer-container {
+        .footer-block {
+            h2 {
+                margin-bottom: 25px;
+
+            }
+
+            .social-network {
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    text-align: center;
+                }
+
+                a:hover {
+                    background-color: bisque;
+                }
+            }
+        }
+    }
+
+    .bot-footer-container p {
+        font-size: 12px;
+    }
+}

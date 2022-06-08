@@ -1,0 +1,35 @@
+footer .footer-container .top-footer-container .footer-block h2 {
+  margin-bottom: 25px; }
+
+footer .footer-container .top-footer-container .footer-block .social-network a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center; }
+
+footer .footer-container .top-footer-container .footer-block .social-network a:hover {
+  background-color: bisque; }
+
+footer .footer-container .bot-footer-container p {
+  font-size: 12px; }
+
+.main-container ul {
+  list-style: none; }
+  .main-container ul li {
+    display: inline-block;
+    padding-right: 20px; }
+
+.main-container {
+  min-height: 66vh; }
+
+html {
+  height: 100vh;
+  width: 100%; }
+  html body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0; }
